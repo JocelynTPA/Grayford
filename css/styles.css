@@ -40,7 +40,7 @@ body {
   }
 }
 
-.container {
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,14 +50,14 @@ body {
   color: #2A3C78;
 }
 
-.container img {
+.main-container img {
   width: 100%;
   height: auto;
   margin-bottom: calc(11.36vh - 18px);
 }
 
 @media screen and (min-width: 768px) {
-  .container img {
+  .main-container img {
     margin-bottom: calc(11.36vh - 18px);
   }
 }
