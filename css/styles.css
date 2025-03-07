@@ -54,9 +54,6 @@ body {
   width: 100%;
   height: auto;
   margin-bottom: calc(11.36vh - 18px);
-  opacity: 0; /* Start initially invisible */
-  animation: fadeIn 1s forwards; /* Fade-in over 1 second */
-  animation-delay: 1s; /* Delay start by 1 second */
 }
 
 @media screen and (min-width: 768px) {
@@ -83,7 +80,7 @@ h1 {
   line-height: 32px;
   opacity: 0; 
   animation: fadeIn 1.2s forwards; 
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 h1 a {
@@ -104,9 +101,6 @@ footer {
   height: 66px;
   display: block;
   margin-top: auto;
-  opacity: 0;
-  animation: fadeIn 1s forwards; 
-  animation-delay: 2s; 
 }
 
 footer p {
